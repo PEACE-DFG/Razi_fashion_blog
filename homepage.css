@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+
+.both{
+    padding-right: 300px;
+    font-size: 30px;
+}
+.real{
+    text-align: center;
+}
+
+a.nav-link :hover{
+    color: aqua;
+    border-bottom: 2px;
+
+}
+a.nav-link :active{
+    color:red;
+    border-bottom: 2px;
+
+}
+
+.woman{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.woman a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .man{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.man a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+.centeredmen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Kid{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.Kid a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+.centeredkid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.flex .fa-solid{
+    font-size: 40px;
+
+}
+.collection{
+    text-align: center;
+}
+.new{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cent{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%, -50%);
+    font-style: oblique;
+  }
+  .cent a{
+    text-decoration: none;
+    color: white;
+}
+.rat{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bit{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    transform: translate(-50%, -50%);
+  }
+  .bit a{
+    text-decoration: none;
+    color: white;
+}
+.dress{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bite{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    transform: translate(-50%, -50%);
+  }
+  .bite a{
+    text-decoration: none;
+    color: white;
+}
+.roll{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.biten{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    transform: translate(-50%, -50%);
+  }
+  .biten a{
+    text-decoration: none;
+    color: white;
+}
+.head{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.flex p{
+    padding: 20px;    
+}
+.routh{
+    text-align: center;
+}
+.finis{
+    position: absolute;
+    top: -35%;
+    left: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%, -50%);
+    font-style: oblique;
+  }
+.parag{
+    padding-left: 5px;
+
+}
+.orange{
+    color: orange;
+}
+.abs{
+    position: relative;
+}
+.rel{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    
+}

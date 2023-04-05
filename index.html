@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css/bootstrap.min.css">
+    <title>https://razi.org.ng</title>
+    <style>
+        marquee{
+            animation: mymove 5s infinite;
+        }
+        @keyframes mymove {
+            50% {color:red;}
+           
+          }
+
+          body{
+            animation: myback 5s infinite;
+          }
+          
+        @keyframes myback {
+            50% {background:radial-gradient(rgb(189, 189, 239),rgb(235, 195, 195))}
+         }
+          
+    </style>
+</head>
+<marquee behavior="" direction="" style="font-size:20px; font-family:cursive"> WELCOME TO   <strong style="font-size: 40px;"><em>Razzi.</em></strong>   FASHION BLOG... PLEASE LOGIN TO ACCESS YOUR REGISTERED ACCOUNT</marquee>
+<body >
+    <div class="container-fluid">
+    <hr>
+    </div>
+    <form class="container border my-5 bg-info">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <label for="inputPassword5" class="form-label">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</div> 
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">remember password</label>
+  </div>
+  <a href="homepage.html" target="_blank" ><input type="button" value="Login" class="bg-primary text-light my-3"></a>
+  <br>
+  <br>
+  <p><em>Not yet registered? click the link below</em></p>
+  <a href="register.html" target="_blank" ><input type="button" value="Register" class="bg-primary text-light my-3"></a>
+</form>
+<footer class="container">
+    <p style="text-align: center; color:black; font-size:25px"><b><i class="fa-solid fa-copyright"></i>Copyright 2023</b></p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

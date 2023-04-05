@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.both{
+    padding-right: 300px;
+    font-size: 30px;
+}
+.real{
+    text-align: center;
+}
+a.nav-link :hover{
+    color: aqua;
+    border-bottom: 2px;
+
+}
+a.nav-link :active{
+    color:red;
+    border-bottom: 2px;
+
+}
+.all{
+    position: relative;
+}
+.mirror{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.win a{
+    text-decoration: none;
+    color: black;
+}
+.win:hover{
+    background-color: aqua;
+}

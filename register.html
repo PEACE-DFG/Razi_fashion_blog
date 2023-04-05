@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://registerwithrazzi.com</title>
+    <link rel="stylesheet" href="bootstrap.css/bootstrap.min.css">
+    <style>
+        .redirect:hover{
+            color:aqua;
+            border-bottom: 3px solid;
+        }
+        .redirect:active{
+            color: red;
+        }
+
+        marquee{
+            animation: mymove 5s infinite;
+        }
+        @keyframes mymove {
+            50% {color:red;}
+           
+          }
+
+          body{
+            animation: myback 5s infinite;
+          }
+          
+        @keyframes myback {
+            50% {background:radial-gradient(rgb(189, 189, 239),rgb(235, 195, 195))}
+         }
+          
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:30px;">PLEASE ENSURE YOU FILL ALL THE REQUIRED INFORMATIONS CORRECTLY</marquee>
+    <div class="container-fluid">
+        <hr>
+    </div>
+            <form class="container mt-5 mb-5 border bg-info text-light " >
+                <fieldset>
+                    <legend style= "text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 50px; color: gold;">DETAILS</legend>
+                
+                    <label for=""> <b>First Name</b>: </label> <br>
+                    <br>
+                    <input type="text"   placeholder="First Name" required>
+                    <div id="firstnameHelp" class="form-text">Please ensure that you enter your name correctly</div>
+                
+                <br>
+                
+                    <label for=""> <b>Last Name</b>: </label> <br>
+                    <br>
+                    <input type="text" placeholder="Last Name" required>
+                    <div id="LastnameHelp" class="form-text">Please ensure that you enter your name correctly</div>
+                <br>
+                
+                    <label for=""> <b>Email</b>: </label> <br>
+                    <br>
+                    <input type="email" placeholder="@gmail.com" required>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <br>
+                <br>
+                
+                    <label for=""> <b>USERNAME</b>: </label> <br>
+                    <br>
+                    <input type="text" placeholder="Username" required>
+                    <div id="usernamehelp" class="form-text">Username may contain letters and numbers but not special characters. Also start with <strong>LETTERS</strong> not numbers </div>
+                <br>
+                <br>
+                
+                    <label for=""> <b>PASSWORD</b>: </label> <br>
+                    <br>
+                    <input type="password" placeholder="Password" required>
+                    <div id="passwordHelpBlock" class="form-text">
+                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                      </div> 
+                <br>
+                <br>
+                
+                    <label for=""> <b>REPEAT PASSWORD</b>: </label> <br>
+                    <br>
+                    <input type="password" placeholder=" Password" required>
+                    <div id="passwordHelpBlock" class="form-text">
+                    Please Ensure that the above password matches    
+                    </div> 
+                <br>
+                
+                    <label for=""> <b>Date of Birth</b>: </label> <br>
+                    <br>
+                    <input type="date" name="Date of birth" required>
+        
+                
+                <br>
+                <br>
+        
+                
+                    <p>
+                        Choose gender
+                     </p>
+                    <input type="radio" name="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br><br>
+                
+            
+                
+                <br>
+                <br>
+                                
+                <div id="liveAlertPlaceholder"></div>
+                <button type="button" class="btn btn-primary" id="liveAlertBtn">Submit</button>
+                             <!-- <input type="submit"> <br>
+                                    <br>
+                                    <br> -->
+                                <p>
+                                     Already have an account?
+        
+                                </p>
+                                    <a href="index.html" target="_parent" class="redirect" style="text-decoration: none;"><b> Back to login</b></a>
+                                </p>   
+                 </fieldset>
+            </form>
+            <footer class="container">
+                <p style="text-align: center; color:black; font-size:25px" ><b><i class="fa-solid fa-copyright"></i>Copyright 2023</b></p>
+            </footer>
+
+
+
+            
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
